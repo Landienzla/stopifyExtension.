@@ -1,0 +1,57 @@
+#container {
+  width: 250px;
+  height: 100%;
+  background-image: url("./backgroundImage.png");
+}
+#loginSpotify:hover {
+  cursor: pointer;
+  background-color: #8059ff     ;
+}
+#getFollowers:hover {
+  cursor: pointer;
+  background-color: #8059ff 
+}
+#getFollowing:hover {
+  cursor: pointer;
+  background-color: #8059ff 
+}
+#stalk:hover {
+  cursor: pointer;
+  background-color: #8059ff 
+}
+
+#loginSpotify {
+  width: 100px;
+  height: 30px;
+  background-color: #59ffa6;
+  border: none;
+  margin: 10%;
+  border-radius: 20px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+#getFollowers {
+  width: 100px;
+  height: 30px;
+  background-color: #59ffa6;
+  border: none;
+  margin: 10%;
+  border-radius: 20px;
+}
+#getFollowing {
+  width: 100px;
+  height: 30px;
+  background-color: #59ffa6;
+  border: none;
+  margin: 10%;
+  border-radius: 20px;
+}
+#stalk {
+  width: 100px;
+  height: 30px;
+  background-color: #59ffa6;
+  border: none;
+  margin: 10%;
+  border-radius: 20px;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "STOPIFY",
+  "description": "Aynen kardeşim aras kargo",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "author": "landienzla",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": ["http://localhost:5000/", "https://localhost:5000/"],
+  "icons": {
+    "16": "spongebob_16x16.png",
+    "32": "spongebob_32x32.png",
+    "48": "spongebob_48x48.png",
+    "128": "spongebob_128x128.png"
+  }
+}
